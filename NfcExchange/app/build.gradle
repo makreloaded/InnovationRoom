@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 20
-    buildToolsVersion '20.0.0'
+    buildToolsVersion "20.0.0"
 
     defaultConfig {
         applicationId "atd.csc.nfcexchange"
@@ -20,6 +20,5 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile files('libs/android-async-http-1.4.4.jar')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
 }
