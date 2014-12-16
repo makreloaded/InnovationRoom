@@ -2,7 +2,28 @@
 <resources>
 
     <string name="app_name">NfcExchange</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="enter_id_of_patient">Enter ID of Patient</string>
+    <string name="get_data">Get Data</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_display_message">Patient Info</string>
+    <string name="patientid">Patient ID</string>
+    <string name="name">Name</string>
+    <string name="age">Age(yrs)</string>
+    <string name="sex">Sex</string>
+    <string name="allergic">Allergic</string>
+    <string name="bloodgroup">Blood Group</string>
+    <string name="docname">Doctor</string>
+    <string name="bed">Bed</string>
+    <string name="ward">Ward</string>
+    <string name="weight">Weight(Kg)</string>
+    <string name="choose_test">Choose Test</string>
+    <string name="explanation">Explanation</string>
+
+    <string-array name="tests">
+        <item>Normal Body Test</item>
+        <item>Blood Test</item>
+        <item>EEG Test</item>
+        <item>ECG Test</item>
+    </string-array>
 
 </resources>
